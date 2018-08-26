@@ -4,13 +4,13 @@ body {
 }
 
 .headerbg {
+  min-width: 100%;
+  min-height: 100%;
   background-image: url(../images/starsky.jpg);
-  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  object-fit: contain;
 
 }
 
@@ -20,10 +20,22 @@ body {
   color: rgba(233, 200, 53, 1);
 }
 
+.infobox {
+  height: 350px;
+  background-color: lightgray;
+}
+
 .flright {
   float: right;
 }
 
 .flleft {
   float: left;
+}
+
+.imgfit {
+  max-height: 100%;
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
