@@ -10,7 +10,7 @@ _This is my first independent project with Epicodus.  I am practicing my HTML an
 
 ## Setup/Installation Requirements
 
-* _Open index.html into a web browser_
+* _Open https://mrbowerbird.github.io/portfolio/ into a web browser_
 
 ## Known Bugs
 
