@@ -39,3 +39,15 @@ body {
   color: black;
   font-weight: bold;
 }
+
+.panelbg {
+  background-color: lightgray;
+}
+
+.panelbg :hover {
+  background-color: lightblue;
+}
+
+.projhead {
+  background-color: lightblue;
+}
